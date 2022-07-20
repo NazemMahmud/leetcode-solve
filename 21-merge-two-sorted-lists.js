@@ -1,5 +1,5 @@
 /**
- * Problem link: https://leetcode.com/problems/add-two-numbers/
+ * Problem link: https://leetcode.com/problems/merge-two-sorted-lists/
  *
  * 2 linked list: lists are stored in reverse order
  * add each of theirs node and return the sum as a linked list
