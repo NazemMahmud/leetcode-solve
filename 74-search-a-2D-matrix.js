@@ -1,21 +1,21 @@
 /**
- * Problem link: https://leetcode.com/problems/search-a-2d-matrix-ii
- * Search a 2D Matrix
+ * Problem link: https://leetcode.com/problems/search-a-2d-matrix
+ * 74: Search a 2D Matrix
  *
- * Input: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5
+ * Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
  * Output: true
  *
- * Input: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20
+ * Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
  * Output: false
  *
- * Input: matrix = [[1,4],[2,5]], target=2
- * Output: true
  *
- * Solution: Binary Search, Divide and conquer
+ * Solution: Binary Search, Divide and conquer, Matrix
  */
 
 /**
- * O (m+n) soln
+ * Runtime: 91 ms
+ * Memory Usage: 41.8 MB
+ *
  * @param {number[][]} matrix
  * @param {number} target
  * @return {boolean}
@@ -33,6 +33,8 @@ const searchMatrix = function (matrix, target) {
 
     let rows = 0, cols = matrix[0].length-1;
 
+    if (matrix[matrix.length-1][cols] < target || matrix[0][0] > target) return false;
+
     while(rows < matrix.length && cols >= 0) {
         if(matrix[rows][cols] === target) {
             return true;
@@ -47,11 +49,7 @@ const searchMatrix = function (matrix, target) {
 }
 
 
-const matrix1 = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]];
-console.log("result 1: ", searchMatrix (matrix1, 5));
+const matrix =[[1,3,5,7],[10,11,16,20],[23,30,34,60]];
 
-const matrix2 = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]];
-console.log("result 2: ", searchMatrix (matrix2, 20));
-
-const matrix3 = [[1,4],[2,5]]
-console.log("result 1: ", searchMatrix (matrix3, 2));
+console.log("result 1: ", searchMatrix (matrix, 5));
+console.log("result 2: ", searchMatrix (matrix, 13));
