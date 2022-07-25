@@ -15,6 +15,8 @@
  */
 
 /**
+ * Runtime: 675ms (will try again to do better)
+ * Memory Usage: 58.9 MB
  * @param {number} numCourses
  * @param {number[][]} prerequisites
  * @param {number[][]} queries
