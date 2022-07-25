@@ -35,6 +35,14 @@ function findOrder (numCourses, prerequisites) {
         inDegree[e]++;
     }
 
+
+    const courses = new Array(numCourses).fill().map(()=> []);
+
+    for (let [pre, next] of prerequisites) {
+        courses[next].push(pre);
+    }
+    console.log('courses: ', courses);
+
     for (let i = 0; i < inDegree.length; i++) {
         if (inDegree[i] === 0) {
             queue.push(i);
