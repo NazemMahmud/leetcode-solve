@@ -16,6 +16,7 @@ My leetcode solutions
 | 210         | Problem: [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) <br/>Solution: [Solution Link](210-course-schedule-II.js)                                                                                                      | Topological sort                          |
 | 236         | Problem: [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) <br/>Solution: [Solution Link](236-Lowest-Common-Ancestor-of-a-Binary-Tree.js)                                       | DFS, Binary Tree                          |
 | 240         | Problem: [Search A 2d Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) <br/>[Solution Link](240-search-a-2D-matrix-II.js)                                                                                                       | Binary search, Divide and Conquer, Matrix |
+| 242         | Problem: [Valid Anagram](https://leetcode.com/problems/valid-anagram) <br/>[Solution Link](242-Valid Anagram.js)                                                                                                                               | Binary search, Divide and Conquer, Matrix |
 | 1462        | Problem: [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv) <br/>[Solution Link](1462-course-schedule-IV.js)                                                                                                               | BFS                                       |
 
 #### 1,203,136
