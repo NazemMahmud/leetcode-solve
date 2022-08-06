@@ -4,7 +4,7 @@ My leetcode solutions
 **Profile:** https://leetcode.com/piash001/
 
 
-| Probelm No. | Problem and Solution link                                                                                                                                                                                                                      | Algorithm type                                        |
+| Problem No. | Problem and Solution link                                                                                                                                                                                                                      | Algorithm type                                        |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | 2           | Problem: [Add two numbers](https://leetcode.com/problems/add-two-numbers) <br/>Solution: [Solution Link](2-add-two-numbers.js)                                                                                                                 | Linked list                                           |
 | 21          | Problem: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) <br/>Solution: [Solution Link](21-merge-two-sorted-lists.js)                                                                                          | Linked list                                           |
@@ -21,7 +21,8 @@ My leetcode solutions
 | 240         | Problem: [Search A 2d Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) <br/>[Solution Link](240-search-a-2D-matrix-II.js)                                                                                                       | Binary search, Divide and Conquer, Matrix             |
 | 242         | Problem: [Valid Anagram](https://leetcode.com/problems/valid-anagram) <br/>[Solution Link](242-Valid Anagram.js)                                                                                                                               | Binary search, Divide and Conquer, Matrix             |
 | 322         | Problem: [Coin Change](https://leetcode.com/problems/coin-change/) <br/>[Solution Link](322-Coin Change.js)                                                                                                                                    | DP, top-down approach, can pick infinite no. of items |
+| 509         | Problem: [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) <br/>[Solution Link](509-Fibonacci Number.js)                                                                                                                      | DP, top-down approach, Fibonacci                      |
 | 890         | Problem: [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern) <br/>[Solution Link](890-Find and Replace Pattern.js)                                                                                              | Hashmap (Two or one mapping), Array,String match      |
 | 1462        | Problem: [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv) <br/>[Solution Link](1462-course-schedule-IV.js)                                                                                                               | BFS                                                   |
 
-#### 1,096,195
+#### 1,096,195 - 1,068,648 = 27,447;
