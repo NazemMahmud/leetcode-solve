@@ -1,6 +1,6 @@
 /**
  * Problem link: https://leetcode.com/problems/pascals-triangle-ii
- * 118:  Pascal's Triangle
+ * 118:  Pascal's Triangle-II
  *
  * Input: rowIndex = 3
  * Output: [1,3,3,1]

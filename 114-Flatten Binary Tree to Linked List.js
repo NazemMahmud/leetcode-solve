@@ -68,19 +68,30 @@ var flatten = function(root) {
  * @param root
  */
 var morrisTraversal = function (root) {
+    // TODO: this is wrong, need more study
     let next = root;
+    const result = [];
     while (next) {
         if (next.left) {
             let current = next.left;
-            while (current.right) {
+            while (current.right && current.right != next) {
                 current = current.right;
             }
-            current.right = next.right;
-            next.right = next.left;
-            next.left = null;
+            if (current.right == next)
+            {
+                current.right = null;
+                next = next.right;
+            } else {
+                result.push(next.val)
+                current.right = next;
+                next = next.left;
+            }
+        } else {
+            result.push(next.val)
+            next = next.right;
         }
-        next = next.right;
     }
+    return result;
 }
 
 root = new Node(1);
