@@ -1,6 +1,6 @@
 /**
- * Problem link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock
- * 121. Best Time to Buy and Sell Stock
+ * Problem link: https://leetcode.com/problems/linked-list-cycle
+ * 141. Linked List Cycle
  * Given the head of a linked list, determine if the linked list has a cycle in it.
  * There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer.
  * Internally, `pos` is used to denote the index of the node that tail's next pointer is connected to.
@@ -43,15 +43,31 @@ var hasCycle = function(head) {
  * @param {ListNode} head
  * @return {boolean}
  */
-var floydCycle = function(head) {
-    let fast = head;
+var floydCycle = function(rootPoint) {
+    // let fast = head;
+    // while(fast && fast.next) {
+    //     head = head.next;
+    //     fast = fast.next.next;
+    //     if (head == fast) {
+    //         return true;
+    //     }
+    // }
+
+
+    /**
+     * Pseudocode
+     * Floyd’s Cycle Finding Algorithm
+     * Here, rootPoint is a linked list
+     */
+    var fast = rootPoint, slow=rootPoint;
     while(fast && fast.next) {
-        head = head.next;
+        slow = rootPoint.next;
         fast = fast.next.next;
-        if (head == fast) {
+        if (slow == fast) {
             return true;
         }
     }
+
     return false;
 }
 
