@@ -48,5 +48,9 @@ My leetcode solutions
 | 890         | Problem: [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern) <br/>[Solution Link](890-Find and Replace Pattern.js)                                                                                              | Hashmap (Two or one mapping), Array,String match        |
 | 1338        | Problem: [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half) <br/>[Solution Link](1462-Reduce Array Size to The Half.js)                                                                              | Hash, Sort, Greedy                                      |
 | 1462        | Problem: [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv) <br/>[Solution Link](1462-course-schedule-IV.js)                                                                                                               | BFS                                                     |
+| 2389        | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                       |
 
-#### 867,307 - 789,399;
+#### 789,399 - 751,345;
+
+
+ 
