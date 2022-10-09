@@ -34,6 +34,7 @@ My leetcode solutions
 | 171              | Problem: [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) <br/>[Solution Link](171-Excel Sheet Column Number.js)                                                                                           | String, Math,                                           |
 | 190              | Problem: [Reverse Bits](https://leetcode.com/problems/reverse-bits) <br/>[Solution Link](190-Reverse Bits.js)                                                                                                                                  | Bit manipulation                                        |
 | 200              | Problem: [Number of Islands](https://leetcode.com/problems/number-of-islands) <br/>[Solution Link](200-Number of Islands.js)                                                                                                                   | DFS, BFS                                                |
+| 203              | Problem: [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) <br/>[Solution Link](203-Remove Linked List Elements.js)                                                                                     | Linked List                                             |
 | 207              | Problem: [Course Schedule](https://leetcode.com/problems/course-schedule) <br/>Solution: [Solution Link](207-course-schedule.js)                                                                                                               | Topological sort                                        |
 | 210              | Problem: [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) <br/>Solution: [Solution Link](210-course-schedule-II.js)                                                                                                      | Topological sort                                        |
 | 217              | Problem: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) <br/>Solution: [Solution Link](217-Contains Duplicate.js)                                                                                                      | Set, Hash                                               |
@@ -54,7 +55,7 @@ My leetcode solutions
 | 2274             | Problem: [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) <br/>[Solution Link](2274-Maximum Consecutive Floors Without Special Floors.js)                  | Array, Sentinel, Maximum consecutive                    |
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                       |
 
-#### 789,399 - 751,345;
+#### 605,096;
 
 
  
