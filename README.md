@@ -1,7 +1,7 @@
 # About
 My leetcode solutions
 
-**Profile:** https://leetcode.com/piash001/
+**Profile:** https://leetcode.com/piash001
 
 
 | Problem No.      | Problem and Solution link                                                                                                                                                                                                                      | Algorithm type                                          |
@@ -46,6 +46,7 @@ My leetcode solutions
 | 300  ``       `` | Problem: [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) <br/>[Solution Link](300-Longest Increasing Subsequence.cs)                                                                            | DP, Binary search                                       |
 | 322              | Problem: [Coin Change](https://leetcode.com/problems/coin-change) <br/>[Solution Link](141-Coin Change.js)                                                                                                                                     | DP, top-down approach, can pick infinite no. of items   |
 | 387              | Problem: [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) <br/>[Solution Link](387-First Unique Character in a String.cs)                                                                | Hash                                                    |
+| 412              | Problem: [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) <br/>[Solution Link](412-Fizz Buzz.cs)                                                                                                                                           | Math                                                    |
 | 509              | Problem: [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) <br/>[Solution Link](509-Fibonacci Number.js)                                                                                                                      | DP, top-down approach, Fibonacci                        |
 | 804              | Problem: [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) <br/>[Solution Link](804-Unique Morse Code Words.js)                                                                                                 | Hashmap, Set                                            |
 | 890              | Problem: [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern) <br/>[Solution Link](890-Find and Replace Pattern.js)                                                                                              | Hashmap (Two or one mapping), Array,String match        |
@@ -55,7 +56,7 @@ My leetcode solutions
 | 2274             | Problem: [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) <br/>[Solution Link](2274-Maximum Consecutive Floors Without Special Floors.js)                  | Array, Sentinel, Maximum consecutive                    |
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                       |
 
-#### 605,096;
+#### 605,096 - 600,344;
 
 
  
