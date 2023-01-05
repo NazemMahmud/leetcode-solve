@@ -55,6 +55,7 @@ My leetcode solutions
 | 384              | Problem: [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array) <br/>[Solution Link](384-Shuffle an Array.js)                                                                                                                      | Array, Math, Random Number                              |
 | 387              | Problem: [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) <br/>[Solution Link](387-First Unique Character in a String.cs)                                                                | Hash                                                    |
 | 412              | Problem: [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) <br/>[Solution Link](412-Fizz Buzz.cs)                                                                                                                                           | Math                                                    |
+| 452              | Problem: [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) <br/>[Solution Link](452-Minimum Number of Arrows to Burst Balloons.js)                                        | Array, Greedy, Minimum number of segment                                                        |
 | 509              | Problem: [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) <br/>[Solution Link](509-Fibonacci Number.js)                                                                                                                      | DP, top-down approach, Fibonacci                        |
 | 520              | Problem: [Detect Capital](https://leetcode.com/problems/detect-capital) <br/>[Solution Link](520-Detect Capital.js)                                                                                                                            | String                                                  |
 | 804              | Problem: [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) <br/>[Solution Link](804-Unique Morse Code Words.js)                                                                                                 | Hashmap, Set                                            |
@@ -67,7 +68,7 @@ My leetcode solutions
 | 2274             | Problem: [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) <br/>[Solution Link](2274-Maximum Consecutive Floors Without Special Floors.js)                  | Array, Sentinel, Maximum consecutive                    |
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                       |
 
-#### 512,734 - 505,636;
+#### 512,734 - 502,210;
 
 
  
