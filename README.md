@@ -31,6 +31,7 @@ My leetcode solutions
 | 134              | Problem: [Single Number](https://leetcode.com/problems/gas-station) <br/>[Solution Link](134-Single Number.js)                                                                                                                                 | Array, Greedy, Max num of point visit in a circular manner |
 | 136              | Problem: [Single Number](https://leetcode.com/problems/single-number) <br/>[Solution Link](136-Single Number.js)                                                                                                                               | Bitwise manipulation, hash (worse)                         |
 | 141              | Problem: [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) <br/>[Solution Link](141-Linked List Cycle.js)                                                                                                                   | Linked List, Hashing, Floyd’s Cycle Detection Algorithm    |
+| 149              | Problem: [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) <br/>[Solution Link](149-Max Points on a Line.js)                                                                                                          | Array, Math, Geometry                                      |
 | 160              | Problem: [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) <br/>[Solution Link](160-Intersection of Two Linked Lists.js)                                                                      | Linked List, Two Pointer                                   |
 | 169              | Problem: [Majority Element](https://leetcode.com/problems/majority-element) <br/>[Solution Link](169-Majority Element.js)                                                                                                                      | Hashing, Sorting, Boyer-Moore Voting Algorithm             |
 | 171              | Problem: [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) <br/>[Solution Link](171-Excel Sheet Column Number.js)                                                                                           | String, Math,                                              |
@@ -70,7 +71,7 @@ My leetcode solutions
 | 2274             | Problem: [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) <br/>[Solution Link](2274-Maximum Consecutive Floors Without Special Floors.js)                  | Array, Sentinel, Maximum consecutive                       |
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                          |
 
-#### 502,210 - 495,405;
+#### 502,210 - 495,908;
 
 
  
