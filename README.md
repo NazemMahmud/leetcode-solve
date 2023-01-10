@@ -17,6 +17,7 @@ My leetcode solutions
 | 83               | Problem: [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) <br/>[Solution Link](83-Remove Duplicates from Sorted List.js)                                                                 | Linked list                                                |
 | 88               | Problem: [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) <br/>[Solution Link](88-Merge Sorted Array.js)                                                                                                                 | Two pointer / One pointer                                  |
 | 94               | Problem: [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) <br/>[Solution Link](94-Binary Tree Inorder Traversal.js)                                                                               | Binary Tree, DFS, Tree, Inorder traversal                  |
+| 100              | Problem: [Same Tree](https://leetcode.com/problems/same-tree) <br/>[Solution Link](100-Same Tree.txt)                                                                                                                                          | Binary tree                                                |
 | 101              | Problem: [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) <br/>[Solution Link](101: Symmetric Tree.js)                                                                                                                           | Binary tree, Recursion                                     |
 | 104              | Problem: [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) <br/>[Solution Link](114-Maximum Depth of Binary Tree.js)                                                                                  | Binary tree, DFS, BFS                                      |
 | 108              | Problem: [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) <br/>[Solution Link](108-Convert Sorted Array to Binary Search Tree.js)                                        | Tree, Binary Search tree, Array                            |
@@ -71,7 +72,7 @@ My leetcode solutions
 | 2274             | Problem: [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) <br/>[Solution Link](2274-Maximum Consecutive Floors Without Special Floors.js)                  | Array, Sentinel, Maximum consecutive                       |
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                          |
 
-#### 502,210 - 495,908;
+#### 502,210 - 493,052;
 
 
  

@@ -1,0 +1,77 @@
+/**
+ * Problem link: https://leetcode.com/problems/same-tree
+ * 100-Same Tree
+ * Solution: Binary Tree
+ *
+ * Input: p = [1,2,3], q = [1,2,3]
+ * Output: true
+ *
+ * Input: p = [1,2], q = [1,null,2]
+ * Output: false
+ *
+ * Input: p = [1,2,1], q = [1,1,2]
+ * Output: false
+ */
+
+// JS code
+
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @return {boolean}
+ */
+var isSameTree = function(p, q) {
+    if(p == null && q == null) {
+        return true;
+    }
+
+    if (p == null || q == null || p.val !== q.val) {
+        return false;
+    }
+
+    return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+};
+
+
+// PHP code
+/**
+ * Definition for a binary tree node.
+ * class TreeNode {
+ *     public $val = null;
+ *     public $left = null;
+ *     public $right = null;
+ *     function __construct($val = 0, $left = null, $right = null) {
+ *         $this->val = $val;
+ *         $this->left = $left;
+ *         $this->right = $right;
+ *     }
+ * }
+ */
+class Solution {
+
+    /**
+     * @param TreeNode $p
+     * @param TreeNode $q
+     * @return Boolean
+     */
+    function isSameTree($p, $q) {
+        if($p == null && $q == null) {
+            return true;
+        }
+        if ($p == null || $q == null) {
+            return false;
+        }
+        if ($p->val == $q->val && $p->left == $q->left && $p->right == $q->right) {
+          return true;
+        }
+        return false;
+    }
+}
