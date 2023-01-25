@@ -68,6 +68,7 @@ My leetcode solutions
 | 918              | Problem: [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) <br/>[Solution Link](918-Maximum Sum Circular Subarray.js)                                                                               | Array, Max Min, Circular Sub-array                         |
 | 944              | Problem: [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) <br/>[Solution Link](944-Delete Columns to Make Sorted.js)                                                                               | Array, String, Adhoc                                       |
 | 974              | Problem: [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) <br/>[Solution Link](974-Subarray Sums Divisible by K.js)                                                                                  | Array, Prefix Sum, Hashmap                                 |
+| 997              | Problem: [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) <br/>[Solution Link](997-Find the Town Judge.js)                                                                                                             | Array,Hashmap                                              |
 | 1338             | Problem: [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half) <br/>[Solution Link](1462-Reduce Array Size to The Half.js)                                                                              | Hash, Sort, Greedy                                         |
 | 1833             | Problem: [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars) <br/>[Solution Link](1833-Maximum Ice Cream Bars.js)                                                                                                   | Sort, Array, Greedy, Max number of item can be obtained    |
 | 1462             | Problem: [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv) <br/>[Solution Link](1462-course-schedule-IV.js)                                                                                                               | BFS                                                        |
@@ -76,7 +77,7 @@ My leetcode solutions
 | 2274             | Problem: [Maximum Consecutive Floors Without Special Floors](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) <br/>[Solution Link](2274-Maximum Consecutive Floors Without Special Floors.js)                  | Array, Sentinel, Maximum consecutive                       |
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                          |
 
-#### 493,052 -486,960;
+#### 493,052 -480,673;
 
 
  
