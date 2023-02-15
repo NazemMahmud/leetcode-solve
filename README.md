@@ -71,7 +71,8 @@ My leetcode solutions
 | 918              | Problem: [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) <br/>[Solution Link](918-Maximum Sum Circular Subarray.js)                                                                               | Array, Max Min, Circular Sub-array                         |
 | 944              | Problem: [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) <br/>[Solution Link](944-Delete Columns to Make Sorted.js)                                                                               | Array, String, Adhoc                                       |
 | 974              | Problem: [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) <br/>[Solution Link](974-Subarray Sums Divisible by K.js)                                                                                  | Array, Prefix Sum, Hashmap                                 |
-| 997              | Problem: [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) <br/>[Solution Link](997-Find the Town Judge.js)                                                                                                             | Array,Hashmap                                              |
+| 974              | Problem: [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) <br/>[Solution Link](974-Subarray Sums Divisible by K.js)                                                                                  | Array, Prefix Sum, Hashmap                                 |
+| 989              | Problem: [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer) <br/>[Solution Link](989-Add to Array-Form of Integer.js)                                                                                  | Array, digit sum                                           |
 | 1071             | Problem: Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings) <br/>[Solution Link](1071-Greatest Common Divisor of Strings.js)                                                                | String, GCD                                                |
 | 1137             | Problem: [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number) <br/>[Solution Link](1137-N-th Tribonacci Number.php)                                                                                                  | Array, Math                                                |
 | 1338             | Problem: [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half) <br/>[Solution Link](1338-Reduce Array Size to The Half.js)                                                                              | Hash, Sort, Greedy                                         |
@@ -83,6 +84,3 @@ My leetcode solutions
 | 2389             | Problem: [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum) <br/>[Solution Link](2389-Longest Subsequence With Limited Sum.js)                                                         | Prefix sum, Greedy, Binary Search                          |
 
 #### 493,052 -480,673;
-
-
- 
