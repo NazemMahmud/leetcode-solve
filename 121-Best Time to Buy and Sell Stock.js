@@ -13,7 +13,7 @@
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function(prices) {
+var maxProfit2 = function(prices) {
     var curMax = 0, bestMax=0;
     for (var i=1; i<prices.length ; i++)
     {
@@ -22,6 +22,30 @@ var maxProfit = function(prices) {
     }
 
     return bestMax;
+};
+
+/**
+ * this is faster than above
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function(prices) {
+    /**
+    * we will use 2 pointer, left/low is for buy stock, right/high is for sell
+    * so, in order to sell, left price have to be lower than the right price, otherwise we can't sell
+    */
+    let low = 0; let high=0; let maxProfit = 0;
+    while(high < prices.length) {
+        if (prices[low] < prices[high]) {
+            let current = prices[high] - prices[low];
+            maxProfit = Math.max(maxProfit, current);
+        } else {
+            low = high;
+        }
+        high++;
+    }
+
+    return maxProfit;
 };
 
 
